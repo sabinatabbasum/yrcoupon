@@ -1,0 +1,82 @@
+
+body{
+    margin: auto;
+}
+
+
+
+
+#main
+{
+    block-size: auto;
+    height: 500px;
+    border: 2%;
+    border-color: aqua;
+    border-style: groove;
+}
+
+
+.tileContainer
+{
+    width: 30%;
+height:180px;
+box-shadow: 10px 20px 10px gray;
+float:left;
+margin-top: 2%;
+margin-left: 2%;
+}
+.tileComponent1{
+width:50%;
+height: 180px;
+float: left;
+}
+.tileComponent1 > img{
+width:100%;
+height:100%;
+}
+
+.tileComponent2{
+width: 45%;
+float: left;
+}
+
+.componentSubHeading{
+
+color:gray;
+font-size: 20px;
+
+
+}
+
+footer{
+height:160px;
+background-color: gold;
+
+}
+#form1{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-color: aqua;
+    border-width: 1mm;
+    border-style: groove;
+}
+
+
+
+
+
+
+#coupon{
+    height: 600px;
+    width: 800px;
+    background-image: url('images/impimage.jpg' );
+    z-index: 100;
+    margin: auto;
+    visibility:inherit;
+    position:relative;
+    justify-content: center;
+}
+#coup{
+    background-image: url('images/display.jpg');
+}
